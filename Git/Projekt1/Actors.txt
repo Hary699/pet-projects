@@ -1,0 +1,29 @@
+First name: Arnold
+Last name: Shwarzenegger
+Year of birth: 1947
+Movies:
+	+ The Terminator
+	+ Total Recall
+	+ Predator
+	+ Maggie
+	+ Na własna ręke
+
+First name: Sylvester
+Last name: Stallone
+Year of birth: 1946
+Movies:
+	+ Rocky
+	+ First Blood (Rambo)
+	+ Demolition Man
+	+ Rocky
+	+ Rocky II
+
+First name: Bruce
+Last name: Willis
+Year of birth: 1955
+Movies:
+	+ Die Hard
+	+ Pulp Fiction
+	+ Sixth Sense
+	+ Szklana płapka
+	+ Szósty zmysł
