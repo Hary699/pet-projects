@@ -7,7 +7,7 @@ function MouseOver(){
     document.getElementById('MouseOver').style.verticalAlign="middle";
     document.getElementById('MouseOver').style.display="table-cell";
     document.getElementById('MouseOver').style.borderRadius="75px"
-    document.getElementById('MouseOver').innerHTML="jebac disa";
+    document.getElementById('MouseOver').innerHTML="MouseOver";
 }
 function MouseOut(){
     document.getElementById('MouseOver').style.backgroundColor="red";
