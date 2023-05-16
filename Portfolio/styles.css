@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    
+}
+*, html, body, main { 
+    scroll-behavior:smooth !important;
+  }
+html{
+    transition: all 0.5s;
+    width: 100%;
+}
+body{
+    padding:0;
+    margin:0;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding:5px;
+    color:blue;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+    color:black;
+    transition: all 0.3s;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding: 6px;
+    font-size: 1.5rem;
+   
+}
+#navbar ul{
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:60%;
+    margin:auto;
+    
+}
+
+#navbar{
+    padding:10px;
+    background-color: darkgrey;
+    border-bottom: 1px solid gray;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+#pic-section{
+    background-image: url("../images/html.jpg");
+    background-size: cover;
+    background-color: black;
+    height: 300px;
+    margin-top: -40px;;
+}
+#about-section{
+    max-height: 25%;
+    width: 60%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: #eee;
+}
+.info{
+    padding:15px;
+    width:50%;
+    align-self: start;
+}
+@media(max-width:800px){
+    #about-section{
+        max-height: 25%;
+        width: 60%;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        background-color: #eee;
+    }
+    .info{
+        padding:15px;
+        width:100%;
+        align-self: start;
+    }
+
+}
+
+#first-box{
+    padding: 5px;
+    width:100%;
+    text-align: center;
+    border-bottom: 1px black solid;
+    align-self: start;
+}
+
+
+.info p{
+    margin:0;
+    padding: 5px;
+}
+.info img{
+    width:100%;
+    border-radius: 20px;
+}
+#myskills-section{
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: darkgray;
+    width:100%;
+}
+.skill-information{
+    margin:20px;
+    padding: 20px;
+}
+.skill-information progress{
+    border: 1px solid black;
+}
+.skill-information progress::-webkit-progress-bar{
+    background-color: darkgray;
+
+}
+.skill-information progress::-webkit-progress-value{
+    background-color: black;
+
+}
+
+.skill-name{
+    text-align: center;
+    color:black;
+    padding:0;
+    margin:0;
+    font-size: 1.5rem;
+}
+#skill-container{
+    margin:auto;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#contact-section{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 150px;
+}
+#contact-section p{
+text-align: end;
+padding-right: 20%;
+margin-top:0;
+}
+#contact-section a{
+    color:lightblue;
+}
+#contact-section a:hover{
+    color: blue;
+    transition: all 0.5s;
+}
